@@ -1,0 +1,44 @@
+/* EmployeeForm.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-form {
+  background-color: #e7f9ee; /* Light green for add */
+}
+
+.edit-form {
+  background-color: #f9e7e7; /* Light red for edit */
+}
+
+h2.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.form-container {
+  position: relative;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+  background-color: darkgray;
+}
